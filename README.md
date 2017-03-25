@@ -41,7 +41,7 @@ infoFile=infoFile
 <Info><test>2017/03/25 13:56:50 [info]
 <Warn><test>2017/03/25 13:56:50 [warn]
 ```
-同时会在当前目录下创建errfile以及errfile,写入对应的内容
+同时会在指定目录下创建errFile以及infoFile(这里就是在当前目录),写入对应的内容
 
 errfile内容如下
 `<Error><test>2017/03/25 13:56:50 [error]`
