@@ -30,7 +30,7 @@
 
 config 文件如下,这里仅配置了errorFile,infoFile
 ```
-errorFile=errfile
+errorFile=errFile
 infoFile=infoFile
 ```
 
@@ -43,7 +43,7 @@ infoFile=infoFile
 ```
 同时会在指定目录下创建errFile以及infoFile(这里就是在当前目录),写入对应的内容
 
-errfile内容如下
+errFile内容如下
 `<Error><test>2017/03/25 13:56:50 [error]`
 infoFile内容如下
 `<Info><test>2017/03/25 13:56:50 [info]`
