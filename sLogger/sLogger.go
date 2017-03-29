@@ -7,10 +7,10 @@ package sLogger
 
 import (
 	"fmt"
+	"github.com/ShaorxCN/myLogger/confutil"
+	"github.com/ShaorxCN/myLogger/logger"
 	"io"
 	"log"
-	"myLog/confutil"
-	"myLog/logger"
 	"os"
 )
 
@@ -38,8 +38,6 @@ func (slf *sLoggerFaactory) SetConfig(path string) {
 	panicFile = config.Secs["default"]["panicFile"]
 	fatalFile = config.Secs["default"]["fatalFile"]
 	debugFile = config.Secs["default"]["debugFile"]
-
-	log.Println(config.Secs)
 
 }
 
